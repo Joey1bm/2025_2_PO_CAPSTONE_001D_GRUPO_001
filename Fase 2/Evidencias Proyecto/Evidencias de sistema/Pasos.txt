@@ -1,0 +1,20 @@
+(CMD
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py)
+
+(Para subir a GitHub
+git add .
+
+git commit -m "Actualizados"
+
+git push)
+
+(Análisis de Dependencias:
+pip install safety
+safety check)
+
+(Chequeo de Seguridad
+pip install setuptools
+python check_security_fixed.py)
